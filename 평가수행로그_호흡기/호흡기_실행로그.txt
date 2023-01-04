@@ -1,0 +1,84 @@
+2022-12-07 15:25:41.079929 
+※ Dataset 로드 ※
+2022-12-07 15:25:41.111821 
+※ Dataset 로드 완료 ※
+2022-12-07 15:25:41.111821 
+※ 컬럼 설정 ※
+2022-12-07 15:25:41.111821 
+※ 제외되는 컬럼 : PI_PatientId, DI_Date, DI_Name, DI_Provider, PEGS_Rt, PEGS_Lt, QE5_TotalScore, QC_TotalScore, QSF_TotalScore ※
+2022-12-07 15:25:41.627438 
+※ 컬럼 설정 완료 ※
+2022-12-07 15:25:41.627438 
+※ train dataset: 225 
+validation dataset: 28 
+test dataset: 29  ※
+2022-12-07 15:25:43.183294 
+※ 모델 학습 ※
+0:	learn: 0.1786944	test: 0.1786944	test1: 0.1886128	best: 0.1886128 (0)	total: 205ms	remaining: 34m 13s
+1:	learn: 0.1311417	test: 0.1311417	test1: 0.1705804	best: 0.1705804 (1)	total: 219ms	remaining: 18m 16s
+2:	learn: 0.1188443	test: 0.1188443	test1: 0.1672095	best: 0.1672095 (2)	total: 247ms	remaining: 13m 42s
+3:	learn: 0.1032970	test: 0.1032970	test1: 0.1732517	best: 0.1672095 (2)	total: 481ms	remaining: 20m 3s
+4:	learn: 0.0903859	test: 0.0903859	test1: 0.1812889	best: 0.1672095 (2)	total: 957ms	remaining: 31m 52s
+5:	learn: 0.0814836	test: 0.0814836	test1: 0.1782588	best: 0.1672095 (2)	total: 1.42s	remaining: 39m 29s
+6:	learn: 0.0619859	test: 0.0619859	test1: 0.1801808	best: 0.1672095 (2)	total: 1.9s	remaining: 45m 6s
+7:	learn: 0.0521604	test: 0.0521604	test1: 0.1790050	best: 0.1672095 (2)	total: 2.36s	remaining: 49m 5s
+8:	learn: 0.0441888	test: 0.0441888	test1: 0.1788046	best: 0.1672095 (2)	total: 2.83s	remaining: 52m 24s
+9:	learn: 0.0408644	test: 0.0408644	test1: 0.1776556	best: 0.1672095 (2)	total: 3.28s	remaining: 54m 40s
+10:	learn: 0.0381095	test: 0.0381095	test1: 0.1819613	best: 0.1672095 (2)	total: 3.3s	remaining: 49m 55s
+11:	learn: 0.0293597	test: 0.0293597	test1: 0.1804564	best: 0.1672095 (2)	total: 3.77s	remaining: 52m 22s
+12:	learn: 0.0222322	test: 0.0222322	test1: 0.1795009	best: 0.1672095 (2)	total: 4.24s	remaining: 54m 13s
+13:	learn: 0.0172653	test: 0.0172653	test1: 0.1806035	best: 0.1672095 (2)	total: 4.69s	remaining: 55m 45s
+14:	learn: 0.0148372	test: 0.0148372	test1: 0.1799965	best: 0.1672095 (2)	total: 5.17s	remaining: 57m 24s
+15:	learn: 0.0114850	test: 0.0114850	test1: 0.1794839	best: 0.1672095 (2)	total: 5.62s	remaining: 58m 27s
+16:	learn: 0.0109676	test: 0.0109676	test1: 0.1791531	best: 0.1672095 (2)	total: 6.09s	remaining: 59m 39s
+17:	learn: 0.0103393	test: 0.0103393	test1: 0.1789348	best: 0.1672095 (2)	total: 6.2s	remaining: 57m 18s
+18:	learn: 0.0083292	test: 0.0083292	test1: 0.1787434	best: 0.1672095 (2)	total: 6.32s	remaining: 55m 18s
+19:	learn: 0.0069169	test: 0.0069169	test1: 0.1783830	best: 0.1672095 (2)	total: 6.8s	remaining: 56m 34s
+20:	learn: 0.0055675	test: 0.0055675	test1: 0.1784466	best: 0.1672095 (2)	total: 7.29s	remaining: 57m 43s
+21:	learn: 0.0054092	test: 0.0054092	test1: 0.1784664	best: 0.1672095 (2)	total: 7.77s	remaining: 58m 45s
+22:	learn: 0.0052428	test: 0.0052428	test1: 0.1785331	best: 0.1672095 (2)	total: 8.26s	remaining: 59m 44s
+23:	learn: 0.0043603	test: 0.0043603	test1: 0.1787100	best: 0.1672095 (2)	total: 8.74s	remaining: 1h 35s
+24:	learn: 0.0035413	test: 0.0035413	test1: 0.1786074	best: 0.1672095 (2)	total: 9.23s	remaining: 1h 1m 22s
+25:	learn: 0.0028319	test: 0.0028319	test1: 0.1784925	best: 0.1672095 (2)	total: 9.76s	remaining: 1h 2m 24s
+26:	learn: 0.0022598	test: 0.0022598	test1: 0.1782006	best: 0.1672095 (2)	total: 10.3s	remaining: 1h 3m 34s
+27:	learn: 0.0021859	test: 0.0021859	test1: 0.1781827	best: 0.1672095 (2)	total: 10.9s	remaining: 1h 4m 47s
+28:	learn: 0.0021351	test: 0.0021351	test1: 0.1782662	best: 0.1672095 (2)	total: 11s	remaining: 1h 3m 10s
+29:	learn: 0.0016694	test: 0.0016694	test1: 0.1782069	best: 0.1672095 (2)	total: 11.5s	remaining: 1h 3m 33s
+30:	learn: 0.0013400	test: 0.0013400	test1: 0.1780114	best: 0.1672095 (2)	total: 11.9s	remaining: 1h 4m
+31:	learn: 0.0011282	test: 0.0011282	test1: 0.1779827	best: 0.1672095 (2)	total: 12.4s	remaining: 1h 4m 32s
+32:	learn: 0.0009026	test: 0.0009026	test1: 0.1779190	best: 0.1672095 (2)	total: 12.7s	remaining: 1h 3m 46s
+33:	learn: 0.0007669	test: 0.0007669	test1: 0.1779775	best: 0.1672095 (2)	total: 13.2s	remaining: 1h 4m 18s
+34:	learn: 0.0006096	test: 0.0006096	test1: 0.1779647	best: 0.1672095 (2)	total: 13.6s	remaining: 1h 4m 45s
+35:	learn: 0.0005054	test: 0.0005054	test1: 0.1779686	best: 0.1672095 (2)	total: 14.1s	remaining: 1h 5m 14s
+36:	learn: 0.0004034	test: 0.0004034	test1: 0.1779710	best: 0.1672095 (2)	total: 14.6s	remaining: 1h 5m 31s
+37:	learn: 0.0003530	test: 0.0003530	test1: 0.1779933	best: 0.1672095 (2)	total: 15.1s	remaining: 1h 6m 2s
+38:	learn: 0.0003096	test: 0.0003096	test1: 0.1780154	best: 0.1672095 (2)	total: 15.6s	remaining: 1h 6m 16s
+39:	learn: 0.0002540	test: 0.0002540	test1: 0.1780173	best: 0.1672095 (2)	total: 16.1s	remaining: 1h 6m 40s
+40:	learn: 0.0002277	test: 0.0002277	test1: 0.1780203	best: 0.1672095 (2)	total: 16.5s	remaining: 1h 6m 58s
+41:	learn: 0.0001734	test: 0.0001734	test1: 0.1780094	best: 0.1672095 (2)	total: 17.1s	remaining: 1h 7m 22s
+42:	learn: 0.0001344	test: 0.0001344	test1: 0.1780041	best: 0.1672095 (2)	total: 17.5s	remaining: 1h 7m 40s
+43:	learn: 0.0001183	test: 0.0001183	test1: 0.1780175	best: 0.1672095 (2)	total: 18s	remaining: 1h 7m 59s
+44:	learn: 0.0001085	test: 0.0001085	test1: 0.1780174	best: 0.1672095 (2)	total: 18.1s	remaining: 1h 6m 34s
+45:	learn: 0.0000932	test: 0.0000932	test1: 0.1780185	best: 0.1672095 (2)	total: 18.5s	remaining: 1h 6m 51s
+46:	learn: 0.0000893	test: 0.0000893	test1: 0.1780179	best: 0.1672095 (2)	total: 19s	remaining: 1h 7m 9s
+47:	learn: 0.0000746	test: 0.0000746	test1: 0.1780149	best: 0.1672095 (2)	total: 19.6s	remaining: 1h 7m 34s
+Stopped by overfitting detector  (45 iterations wait)
+
+bestTest = 0.1672094941
+bestIteration = 2
+
+Shrink model to first 3 iterations.
+2022-12-07 15:26:02.813307 
+※ 학습 완료 ※
+2022-12-07 15:26:02.821257 
+※ 모델 평가 ※
+2022-12-07 15:26:02.855052 
+               precision    recall  f1-score   support
+
+           0       0.83      0.95      0.89        21
+           1       0.80      0.50      0.62         8
+
+    accuracy                           0.83        29
+   macro avg       0.82      0.73      0.75        29
+weighted avg       0.82      0.83      0.81        29
+

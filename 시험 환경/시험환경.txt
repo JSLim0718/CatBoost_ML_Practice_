@@ -1,0 +1,11 @@
+1) CPU 사양 : Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz   2.60 GHz
+2) GPU 사양 : NVIDIA GeForce GTX 1650
+3) RAM 사양 : 16.0GB
+4) HDD 용량 : 512.0GB
+5) OS 버전 : Windows 10 Pro Version 21H2(OS 빌드 19044.2251)
+6) 사용 프레임워크 버전 정보
+   - Python == 3.8
+   - catboost == 1.1.1
+   - jupyter == 1.0.0
+   - pandas == 1.5.1
+   - scikit-learn == 1.1.3
